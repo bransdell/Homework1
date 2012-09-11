@@ -1,2 +1,3 @@
 This is just ay test yo!
 I'm adding a second line I guess.
+This is added from gedit like a pro
