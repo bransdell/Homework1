@@ -4,3 +4,4 @@ This is added from gedit like a pro
 What about now?
 let's see if the temp file shows up...
 edited with vi this time
+after exiting completely... let's see if this still works right
