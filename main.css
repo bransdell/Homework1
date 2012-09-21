@@ -1,1 +1,220 @@
-css
+/*Main Cascading Style Sheet*/
+
+/*body substance formatting*/
+body {background-image:url('./pics/10.jpg');background-attachment:fixed;background-size:100%;} 
+
+#body {
+
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 14px;
+		background: #EDEDED;
+		border: 10px solid black;
+		margin-top: 20px;
+		margin-bottom: 100px;
+		width:960px;
+		margin-left: auto;
+		margin-right: auto;
+		height:1330px;
+		}
+
+#resbody {
+
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 14px;
+		background: #EDEDED;
+		border: 10px solid black;
+		margin-top: 20px;
+		margin-bottom: 100px;
+		width:960px;
+		margin-left: auto;
+		margin-right: auto;
+		height:1200px;
+		}
+	
+#substance{
+		margin:16px;
+		width:600px;
+				
+		}
+
+#substance h3 {font-size: 12pt;margin-top:0px;margin-left:24px;}
+
+#substance p {
+		margin-left:40px;
+		font-size: 11pt;
+		margin-bottom:20px;
+		}
+
+#substance ul {
+		
+		text-align: left;
+		margin-left:20px;
+		font-size: 10pt;
+		margin-bottom:20px;
+		}
+		
+#substance li {font-size: 11pt;margin-bottom:18px;}
+#substance a {text-decoration:none;}
+#substance a:hover {color:red;}
+
+
+/*resume formatting*/
+
+#resume{
+		border:2px solid black;
+		width:670px;
+		margin:auto;
+		margin-top:30px;
+		padding:10px;
+		background:white;
+		height:820px;
+		}
+
+#resume ul {
+		text-align: left;
+		margin-left:20px;
+		font-size: 10pt;
+		margin-bottom:20px;
+		
+		}
+
+#resume p {
+		margin-left:40px;
+		font-size: 10pt;
+		margin-bottom:20px;
+		}
+
+#resume h3 {font-size: 10pt;margin-top:0px;}
+		
+
+
+.headings{	
+		font-size: 16pt;
+
+		padding-bottom: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		}
+.right {float:right;width:135px;text-align:right;margin-bottom:12px;}		
+.left {float: left;width:515px;text-align:left;margin-bottom:12px;margin-left:20px;}		
+				
+/*Navigation Bar formatting*/
+
+#navigation { background:#969696; padding:5px; padding-left: 144px; height:50px; }
+
+#navigation ul { list-style-type:none; text-align:center;}
+
+#navigation ul a {
+		color:#EDEDED; 
+		background:black; 
+		padding-left: 20px; 
+		padding-right: 20px; 
+		text-decoration: none; 
+		font-size: 15pt; 
+		border: 2px solid black; 
+		font-weight: bold;
+		}
+	
+#navigation ul a:hover {color:black; background: #EDEDED;}
+		
+#navigation ul li {display:inline; margin-left: 20px; margin-bottom: 20px;  float:left; }		
+			
+
+/*Title Heading formatting*/
+
+#heading {background: #EDEDED;}
+
+#heading h1 {font-size: 30pt;text-align: left;padding-left:130px;}
+
+#floatpic {float: left; width:100px;margin:11px;border:2px solid black;}
+
+#contact ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		position:absolute;
+		top:180px;
+		left: 50%;
+    		margin-left: 140px;
+		}
+
+/*Picture formatting*/
+
+#pictures { 
+		background:none; 
+		width:300px; 
+		padding:10px; 
+		height:auto;
+		position: absolute;
+    		top: 140px;
+    		left: 50%;
+    		margin-left: 158px;
+		}
+		
+#pictures2 { 
+		background:#EDEDED; 
+
+		width:300px; 
+		padding:10px; 
+		height:auto;
+		position: absolute;
+    		top: 1006px;
+    		left: 50%;
+    		margin-left: -478px;
+    		
+		}
+
+#pictures3 { 
+		background:#EDEDED; 
+
+		width:300px; 
+		padding:10px; 
+		height:auto;
+		position: absolute;
+    		top: 1006px;
+    		left: 50%;
+    		margin-left: -160px;
+    		
+		}
+
+.pics {
+		border: solid 4px black; 
+		background: white;
+		width: 250px;
+		padding: 18px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		text-align: center;
+		}
+		
+.pics a {text-decoration: none;color:black;}
+
+/*Footer formatting*/
+
+#footer p { 
+		margin:0;
+		font-style:italic;
+		text-align:center;
+		font-size:small;
+		position: absolute;
+    		top: 1330px;
+    		left: 50%;
+    		margin-left: -144px;
+		}
+
+#resfooter p { 
+		margin:0;
+		font-style:italic;
+		text-align:center;
+		font-size:small;
+		position: absolute;
+    		top: 1200px;
+    		left: 50%;
+    		margin-left: -144px;
+		}
+
+
+

@@ -1,0 +1,40 @@
+
+img { display: none; }
+
+#navigation {display:none;}
+
+#contact ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		position:absolute;
+		top:40px;
+		left: 50%;
+    	margin-left: 140px;
+		}
+		
+#resbody {
+
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 14px;
+		background: white;
+		border: none;
+		margin-top: 20px;
+		margin-bottom: 100px;
+		width:960px;
+		margin-left: auto;
+		margin-right: auto;
+		height:1200px;
+		}
+		
+#resfooter p { 
+		margin:0;
+		font-style:italic;
+		text-align:center;
+		font-size:small;
+		position: absolute;
+    		top: 980px;
+    		left: 50%;
+    		margin-left: -144px;
+		}
